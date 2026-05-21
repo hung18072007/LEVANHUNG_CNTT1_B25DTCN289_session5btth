@@ -1,4 +1,3 @@
-# 4.1. Nhập số lượng nhân viên cần kiểm tra
 employee_count = int(input("Nhập số lượng nhân viên: "))
 
 for i in range(1, employee_count + 1):
@@ -19,7 +18,6 @@ for i in range(1, employee_count + 1):
         print("*", end="") 
     print() 
     
-    # 4.6. Thống kê mức độ làm việc
     if working_days >= 18:
         print("Làm việc chăm chỉ")
     elif working_days < 10:
